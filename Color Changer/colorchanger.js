@@ -4,7 +4,7 @@ const textColor = document.querySelectorAll('.text1')
 console.log(textColor);
 
  
-// Without The Tect Color
+// Without The Text Color
 
 // buttons.forEach(function (button) {
 //     console.log(button);
