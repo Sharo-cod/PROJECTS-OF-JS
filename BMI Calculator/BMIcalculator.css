@@ -1,9 +1,26 @@
+body{
+    background-color: #d8d8d8;
+}
 .container {
     width: 575px;
-    height: 825px;
+    height: 800px;
   
     background-color: #797978;
-    padding-left: 30px;
+    padding-left: 20px;
+
+    position: relative;
+    left: 65vh;
+    top: 5vh;
+    border: 10px solid rgb(68, 68, 68);
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 20px 50px black;
+  }
+  .container:hover{
+    box-shadow: 20px 50px 100px rgb(11, 11, 11);
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 700;
   }
   #height,
   #weight {
@@ -39,9 +56,9 @@
     font-size: 25px;
   }
   
-  h1 {
+  .text1 {
     padding-left: 15px;
     padding-top: 25px;
-    
+    text-align: center;
   }
   
