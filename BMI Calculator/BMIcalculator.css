@@ -46,10 +46,17 @@ body{
     color: #212121;
     text-decoration: none;
     border: 2px solid #212121;
-  
     font-size: 25px;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
   }
-  
+  button:hover{
+    letter-spacing: 1px;
+    width: 200px;
+  }
+  button:active{
+    background-color: rgb(71, 71, 71);
+  }
   .text1 {
     padding-left: 15px;
     padding-top: 25px;
