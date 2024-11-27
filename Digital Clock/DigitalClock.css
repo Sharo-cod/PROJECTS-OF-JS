@@ -1,0 +1,49 @@
+body {
+    background-color: #212121;
+    color: #fff;
+  }
+  .center {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #banner{
+    font-size: 40px;
+    position: relative;
+    top: 5vh;
+    display: inline-block;
+  }
+  #clock {
+    font-size: 40px;
+    background-color: rgb(118, 35, 35);
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    position: relative;
+    top: 10vh;
+    display: inline-block;
+  }
+  #clock:active{
+    letter-spacing: 2px;
+  }
+  
+  #clock:hover{
+    letter-spacing: 10px;
+  }
+  .center2{
+    border: 2px solid white;
+    height: 40vh;
+    width: 60vh;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 50px white;
+  }
+  .center2:hover{
+    box-shadow: 20px 20px 300px white;
+  }
